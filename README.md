@@ -6,12 +6,14 @@
 ## Summary:
 I created VerseKeeper to fulfill every feature I want in a Bible memorization app. It is currently under development, and it is a private repository. However, I wanted to highlight some of my code from this app that is most transferable to skills needed for a data engineer.
 
-So, I created this separate repository to include some screenshots of the following topics:
+So, I created this separate repository to include some video examples and sample code of the following topics:
 - [VerseKeeper-Public](#versekeeper-public)
   - [Summary:](#summary)
   - [Web Scraping:](#web-scraping)
+    - [Example:](#example)
     - [Sample Code:](#sample-code)
   - [User Authentication:](#user-authentication)
+    - [Example:](#example-1)
     - [Sample Code:](#sample-code-1)
   - [API Access:](#api-access)
     - [Sample Code:](#sample-code-2)
@@ -20,7 +22,10 @@ So, I created this separate repository to include some screenshots of the follow
 
 ## Web Scraping:
 I always enjoy reading Bible commentary while I am memorizing Scripture. So, VerseKeeper uses [jsoup](https://jsoup.org/) to scrape commentary from BibleRef. The BibleRef website allows their Bible commentary to be re-distributed under specific guidelines, which I have judiciously followed. 
- 
+
+&nbsp;
+
+### Example:
 Here is an example VerseKeeper's web scraping in action:
 
 [![VerseKeeper: Web Scraping](/imgs/commentary_single-verse_play.png)](https://www.youtube.com/watch?v=bGydo8aoIF8)
@@ -28,7 +33,7 @@ Here is an example VerseKeeper's web scraping in action:
 &nbsp;
 
 ### Sample Code:
-As mentioned earlier, VerseKeeper uses jsoup for web scraping. I have included a sample of the [GetVerseCommentaryTask class](sample_web-scrape.java) in this repository.
+As mentioned earlier, VerseKeeper uses jsoup for web scraping. I have included a sample of the [GetVerseCommentaryTask class](/Sample_WebScrape.java) in this repository.
 
 
 &nbsp;
@@ -36,6 +41,9 @@ As mentioned earlier, VerseKeeper uses jsoup for web scraping. I have included a
 ## User Authentication:
 A previous API I was using required that I track user sessions anonymously. I also plan to offer users backup capability. So, I integrated the [Firebase API](https://firebase.google.com/) into VerseKeeper. Currently, users can only sign in with a Google account, but I plan to add more Identity Providers.
 
+&nbsp;
+
+### Example:
 Below is an example of signing into Google:
 [![VerseKeeper: User Authentication](/imgs/google_sign-in_play.png)](https://youtube.com/shorts/Wac63O3hBrE)
 

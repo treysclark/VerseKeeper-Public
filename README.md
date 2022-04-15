@@ -4,7 +4,9 @@
 ![Header](/imgs/cover.png)
 
 ## Summary:
-I created VerseKeeper to fulfill every feature I want in a Bible memorization app. It is currently under development, and it is a private repository. However, I wanted to highlight some of my code from this app that is most transferable to skills needed for a data engineer.
+I created VerseKeeper to fulfill every feature I want in a Bible memorization app. I created a [website](https://versekeeper.com/) to showcase the apps features.
+
+It is currently under development, and it is a private repository. However, I wanted to highlight some of my code from this app that is most transferable to skills needed for a data engineer.
 
 So, I created this separate repository to include some video examples and sample code of the following topics:
 - [VerseKeeper-Public](#versekeeper-public)
